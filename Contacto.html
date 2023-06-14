@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>contacto | HOMESTYLE</title>
+    <meta name="viewport" content="width=device-width,user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <link href="ccs/estilos.css" rel="stylesheet">
+    <link href="ccs/contacto.css" rel="stylesheet">
+
+    <link href="https://file.myfontastic.com/4RwekXJGZtCBjrpTt7T7UJ/icons.css" rel="stylesheet"> 
+</head>
+
+<body>
+<header class="main-header">
+    <div class="container container--flex">
+        <div class="logo-container column column--50">
+            <h1 class="logo">HOMESTYLE</h1>
+        </div>
+        <div class="main-header__contactInfo column column--50">
+            <p class="main-header__contactInfo__phone">
+                <span class="icon-phone">1154364544</span> 
+            </p>
+            <p class="main-header__contactInfo__address">
+                <span class="icon-location">calle Uriburu 1438-Recoleta,caba</span>
+            </p>
+        </div>
+    </div>
+</header>
+<nav class="main-nav">
+    <div class="container container--flex">
+        <span class="icon-menu" id="btnmenu"></span>
+        <ul class="menu" id="menu">
+            <li class="menu__item"><a href="Index.html" class="menu__link">Inicio</a></li>
+            <li class="menu__item"><a href="Sobre Nosotros.html" class="menu__link">Sobre Nosotros</a></li>
+            <li class="menu__item"><a href="Galeria.html" class="menu__link">Galeria</a></li>
+            <li class="menu__item"><a href="Contacto.html" class="menu__link menu__link--select">Contacto</a></li>
+        </ul>
+        <div class="social-icon">
+            <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+            <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+            <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
+        </div>
+    </div>
+</nav>
+
+<section class="banner"> 
+    <img src="img/banner 5.jpg" alt="" class="banner__img">
+    <div class="banner__content">dèjanos un mensaje</div>
+    
+</section>
+
+<section1>
+    <div class="container">
+        <form action="" class="form" id="form" autocomplete="off">
+          <p class="form-titulo">Regístrate</p>
+          <div class="form-input myname">
+            <input type="text" id="myname">
+            <label for="myname">Nombre</label>
+            <p class="mensajeError"></p>
+          </div>
+          <div class="form-input surname">
+            <input type="text" id="surname">
+            <label for="surname">Apellidos</label>
+            <p class="mensajeError"></p>
+          </div>
+          <div class="form-input email">
+            <input type="email" id="email">
+            <label for="email">Correo electrónico</label>
+            <p class="mensajeError"></p>
+          </div>
+          <div class="form-input mobile">
+            <input type="text" id="mobile">
+            <label for="mobile">Celular</label>
+            <p class="mensajeError"></p>
+          </div>
+          <div class="form-termsAndConditions termsAndConditions">
+            <input type="checkbox" id="termsAndConditions">
+            <label for="termsAndConditions">He leído y acepto los </label>
+            <a href="#">Términos y Condiciones</a>
+            <p class="mensajeError"></p>
+          </div>
+          <div class="form-boton" >
+            <input type="submit" value="Enviar">
+          </div>
+          <p class="mensajeCorrecto"></p>
+        </form>
+      </div>
+      <script src="js/form.js"></script>
+</section1>
+</body>
+<footer class="main-footer">
+    <div class="container container--flex">
+       <p class="copy">© 2023 HOMESTYLE | Todos los derechos reservados</p>
+    </div>
+</footer>
+<script src="js/Form.js"></script>
+</body>
+</html>

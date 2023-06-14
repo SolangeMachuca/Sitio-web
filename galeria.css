@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2? familia=Montserrat:wght@400;700&familia=Pacífico&display=swap');
+* {   box-sizing: border-box;
+}
+
+#galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 25px;
+}
+h4{
+    background-color:rgba(0, 0, 0, 0.85);
+    text-align: center;
+    font-family: cursive bold white;
+    color: seashell;
+    margin-bottom: 20px;
+}
